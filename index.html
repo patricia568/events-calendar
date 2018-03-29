@@ -4,25 +4,26 @@
   <meta charset="utf-8">
   <title>Events calender</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700" rel="stylesheet">
 </head>
 <body>
   <main>
-    <div>
-      <h1>November, 1963</h1>
+    <div class="gutter">
+      <h1 class="text-center not-bold italic">November, 1963</h1>
 
-      <table border="1">
+      <table>
         <thead>
-          <tr>
-            <th scope="col">Sun</th>
-            <th scope="col">Mon</th>
-            <th scope="col">Tue</th>
-            <th scope="col">Wed</th>
-            <th scope="col" >Thu</th>
-            <th scope="col">Fri</th>
-            <th scope="col">Sat</th>
+          <tr class="headings">
+            <th class="milli" scope="col">Sun</th>
+            <th class="milli" scope="col">Mon</th>
+            <th class="milli" scope="col">Tue</th>
+            <th class="milli" scope="col">Wed</th>
+            <th class="milli" scope="col" >Thu</th>
+            <th class="milli" scope="col">Fri</th>
+            <th class="milli" scope="col">Sat</th>
           </tr>
         </thead>
         <tbody>
@@ -34,7 +35,9 @@
           <tr>
             <td>
               <data value="3">3</data>
-              <p>Vostok 3 & 6 launched</p>
+              <ul class="list-group">
+                <li class="grey-box micro">Vostok 3 & 6 launched</li>
+              </ul>
             </td>
             <td>4</td>
             <td>5</td>
@@ -45,18 +48,22 @@
           </tr>
           <tr>
             <td>10</td>
-            <td>
+            <td class="box-11">
               <data value="11">11</data>
-              <p>Remembrance Day</p>
-              <p>Kosmos 21 failed to escape orbit</p>
+              <ul class="list-group">
+                <li class="red-box micro push-1-8">Remembrance Day</li>
+                <li class="grey-box micro">Kosmos 21 failed to escape orbit</li>
+              </ul>
             </td>
             <td>12</td>
             <td>13</td>
             <td>14</td>
             <td>
               <data value="15">15</data>
-              <p>Surtsey Island created</p>
-              <p>Robert W. Smith set altitude record</p>
+              <ul class="box-15 list-group">
+                <li class="green-box micro push-1-8">Surtsey Island created</li>
+                <li class="green-box micro">Robert W. Smith set altitude record</li>
+              </ul>
             </td>
             <td>16</td>
           </tr>
@@ -67,15 +74,21 @@
             <td>20</td>
             <td>
               <data value="21">21</data>
-              <p>Doctor Who premiered</p>
+              <ul class="list-group">
+                <li class="grey-box micro">India launched its first rocket</li>
+              </ul>
             </td>
             <td>
               <data value="22">22</data>
-              <p>Death of Aldous Huxley</p>
+              <ul class="list-group">
+                <li class="purple-box micro">Death of Aldous Huxley</li>
+              </ul>
             </td>
             <td>
               <data value="23">23</data>
-              <p>Doctor Who premiered</p>
+              <ul class="list-group">
+                <li class="purple-box micro">Doctor Who premiered</li>
+              </ul>
             </td>
           </tr>
           <tr>
@@ -83,7 +96,9 @@
             <td>25</td>
             <td>
               <data value="26">26</data>
-              <p>Explorer 18 launched</p>
+              <ul class="list-group">
+                <li class="grey-box micro">Explorer 18 launched</li>
+              </ul>
             </td>
             <td>27</td>
             <td>28</td>

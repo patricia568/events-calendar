@@ -1,0 +1,53 @@
+html {
+  font-family: "Merriweather", serif;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+
+
+.grey-box {
+  background-color: #f2f2f2;
+  border: 1px solid #666;
+  border-radius: 8px;
+  color: #333;
+  padding: .25em .5em;
+}
+
+.red-box {
+  background-color: #f2bcbc;
+  border: 1px solid #b92828;
+  border-radius: 8px;
+  color: #991919;
+  padding: .25em .5em;
+}
+
+.green-box {
+  background-color: #d1e0bf;
+  border: 1px solid #6b7e54;
+  border-radius: 8px;
+  color: #51603f;
+  padding: .25em .5em;
+}
+
+.purple-box {
+  background-color: #d2d6f0;
+  border: 1px solid #1d38da;
+  border-radius: 8px;
+  color: #38448e;
+  padding: .25em .5em;
+}
+
+tr:not(.headings) {
+  height: 8.5em;
+}
+
+.box-11 {
+  padding-bottom: 0;
+}
+
+.box-15 {
+  margin-bottom: 0;
+}
