@@ -38,11 +38,3 @@ td, th {
 tr:not(.headings) {
   height: 9.5em;
 }
-
-.box-11 {
-  padding-bottom: 0;
-}
-
-.box-15 {
-  margin-bottom: 0;
-}
