@@ -7,6 +7,13 @@ td, th {
   font-weight: bold;
 }
 
+td {
+  text-align: right;
+}
+
+li{
+  text-align: left;
+}
 
 .grey-box {
   background-color: #f2f2f2;
